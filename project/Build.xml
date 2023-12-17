@@ -26,8 +26,8 @@
 		</section>
 
 		<section if="linux">
-			<lib name="${haxelib:hxCodec}/project/vlc/dll/Linux/libvlc.so" />
-			<lib name="${haxelib:hxCodec}/project/vlc/dll/Linux/libvlccore.so" />
+			<lib name="${HXCODEC_PATH}project/vlc/dll/Linux/libvlc.so" />
+			<lib name="${HXCODEC_PATH}project/vlc/dll/Linux/libvlccore.so" />
 		</section>
 
 		<section if="android">
